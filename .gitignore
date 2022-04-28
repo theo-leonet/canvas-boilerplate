@@ -1,0 +1,10 @@
+/*
+!.gitignore
+!package.json
+!package-lock.json
+!readme.md
+!tsconfig.json
+!webpack.mix.js
+
+!/src
+!/src/*

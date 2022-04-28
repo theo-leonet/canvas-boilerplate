@@ -1,0 +1,39 @@
+{
+  "name": "canvasbp",
+  "version": "1.0.0",
+  "description": "TS Canvas Boilerplate is a tiny library that allows HTLM5 canvas developers to do start their 2d canvas projects faster.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theo-leonet/canvas-boilerplate.git"
+  },
+  "keywords": [
+    "Canvas",
+    "TypeScript",
+    "JavaScript",
+    "Boilerplate",
+    "HTML",
+    "CSS"
+  ],
+  "author": "Théo Léonet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theo-leonet/canvas-boilerplate/issues"
+  },
+  "homepage": "https://github.com/theo-leonet/canvas-boilerplate#readme",
+  "devDependencies": {
+    "laravel-mix": "^6.0.43",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.49.11",
+    "sass-loader": "^12.6.0",
+    "ts-loader": "^9.2.8",
+    "typescript": "^4.6.3"
+  }
+}
