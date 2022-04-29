@@ -1,10 +1,11 @@
 import {IIsAnimation} from "./IIsAnimation";
-import {IIsCanvas} from "../canvases/IIsCanvas";
+import {BaseCanvas} from "../canvases/BaseCanvas";
+import {IHasCanvas} from "../IHasCanvas";
 
-export abstract class BaseAnimation implements IIsAnimation{
+export abstract class BaseAnimation implements IIsAnimation, IHasCanvas{
     canvasElement: HTMLCanvasElement;
     ctx: CanvasRenderingContext2D;
-    canvas: IIsCanvas;
+    canvas: BaseCanvas;
 
     protected constructor(canvasElement: HTMLCanvasElement, ctx: CanvasRenderingContext2D) {
         this.canvasElement = canvasElement;
@@ -20,4 +21,5 @@ export abstract class BaseAnimation implements IIsAnimation{
     loop(): void{
         requestAnimationFrame(()=>this.animate());
     }
+
 }

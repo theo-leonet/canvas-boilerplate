@@ -1,6 +1,6 @@
-import {IIsCanvas} from "./IIsCanvas";
+import {IHasCanvas} from "../IHasCanvas";
 
-export class BaseCanvas implements IIsCanvas{
+export class BaseCanvas implements IHasCanvas{
         canvasElement: HTMLCanvasElement;
         ctx: CanvasRenderingContext2D;
 

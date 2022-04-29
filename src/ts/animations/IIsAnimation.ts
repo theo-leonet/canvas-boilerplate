@@ -1,9 +1,7 @@
-import {IIsCanvas} from "../canvases/IIsCanvas";
+import {BaseCanvas} from "../canvases/BaseCanvas";
 
 export interface IIsAnimation {
-    canvasElement: HTMLCanvasElement;
-    ctx: CanvasRenderingContext2D;
-    canvas: IIsCanvas;
+    canvas: BaseCanvas;
 
     animate(): void;
 }
