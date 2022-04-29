@@ -14,7 +14,7 @@ export class BaseCanvas implements IIsCanvas{
             this.canvasElement.height = innerHeight;
         }
 
-        protected resizeEventListeners(): void{
+        protected resizeEventListener(): void{
             window.addEventListener('resize', ()=>this.fullWindowResize());
         }
     }
